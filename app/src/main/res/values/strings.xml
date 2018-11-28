@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Manufriend</string>
+    <string name="tgl_detail">Untuk Tanggal :</string>
+    <string name="time_detail">Pukul :</string>
+    <string name="notes_detail">Catatan :</string>
+    <string name="info_service">Agen social assistant akan menemani Anda beraktivitas di tempat yang anda inginkan</string>
+    <string name="bantuan"><b>Anda pengguna baru? Silakan membaca panduan di bawah ini:</b>
+    \n\n
+        <b><i>Pertama,</i></b> - lakukan pendaftaran pada halaman registrasi. Setiap data, seperti nama, email, password, konfirmasi password,nomor telepon, alamat, tanggal lahir, dan jenis kelamin diisi dengan benar dan lengkap.
+    \n\n
+        <b><i>Kedua,</i></b> - login pada halaman login dengan memasukkan alamat email dan password sesuai dengan data registrasi sebelumnya.
+    \n\n
+        <b><i>Ketiga,</i></b> - setelah berhasil login, silakan pilih salah satu layanan jasa bersosialisasi yang disediakan di dalam halaman layanan dan lengkapi informasi pemesanan.
+    \n\n
+        <b><i>Keempat,</i></b> - jika pemesanan Anda telah disetujui oleh Sistem,  maka silakan menunggu Agen kami sesuai dengan waktu yang telah Anda tentukan untuk melakukan aktivitas sosial yang Anda butuhkan.
+    \n\n
+        <b><i>Kelima,</i></b> - apabila aktivitas telah selesai, maka Anda dipersilakan untuk menyelesaikan pembayaran secara langsung kepada Agen kami.
+    \n\n
+        <b><i>Keenam,</i></b> - silakan memberikan komplain atau saran kepada kami melalui telepon <b>085399250048</b> apabila diperlukan.
+    </string>
+</resources>

@@ -1,0 +1,77 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Manufriend",
+		"_postman_id": "e29a99dd-bb37-01e4-c4ff-20f453bdf889",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API_LOGIN",
+			"request": {
+				"url": "http://frendlansia.jn-code.xyz/index.php/api/api_login/johan@gmail.com/23424",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API_DONE",
+			"request": {
+				"url": "http://frendlansia.jn-code.xyz/index.php/api/api_done",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API_APPROVE",
+			"request": {
+				"url": "http://frendlansia.jn-code.xyz/index.php/api/api_approve/2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API_USER",
+			"request": {
+				"url": "http://frendlansia.jn-code.xyz/index.php/api/api_user",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API_HANG_OUT",
+			"request": {
+				"url": "http://frendlansia.jn-code.xyz/index.php/api/api_hang_out",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "API_CHITCHAT",
+			"request": {
+				"url": "http://frendlansia.jn-code.xyz/index.php/api/api_chit_chat",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

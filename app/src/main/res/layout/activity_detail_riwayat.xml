@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailRiwayatActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/manu_blue" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="610dp">
+
+        <FrameLayout
+            android:id="@+id/layout_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/id_all_rincian"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Riwayat Pemesanan"
+                android:textColor="#ffffff"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1.7"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:text="Status"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/status_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="50dp"
+                        android:text="Request/On going/Done"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:text="Layanan"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/service_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="35dp"
+                        android:text="Jalan-jalan"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:text="Tanggal"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/date_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="37dp"
+                        android:text="05-06-2018"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:text="Durasi"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/duration_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="49dp"
+                        android:text="3"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:text="jam"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:text="Alamat"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/address_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="42dp"
+                        android:text="Jl. Pesantren No. 2 Pasir Gunung Selatan, Cimanggis, Depok"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:text="Agen"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/agen_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="57dp"
+                        android:text="Linda Rama"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:text="Total"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="57dp"
+                        android:text="Rp"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/total_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:text="200000"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:text="Pembayaran"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/pembayaran_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="7dp"
+                        android:text="Lunas / Belum Bayar"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_selesai_rincian"
+                        android:layout_width="350dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="16dp"
+                        android:background="@color/manu_blue"
+                        android:gravity="center"
+                        android:onClick="display"
+                        android:text="SELESAI"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp"
+                        tools:ignore="OnClick" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

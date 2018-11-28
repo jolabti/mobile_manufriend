@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login2"
+    tools:context="xyz.jncode.manufriend.MainActivity">
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/background"
+        android:id="@+id/formBack"
+        android:scaleType="centerCrop"/>-->
+
+    <ImageView
+        android:id="@+id/formLogo"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/judul" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Jika belum memiliki akun, silahkan tekan tombol REGISTER"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/formLogo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/kotak_putih"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:text="Silahkan Login"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/putih_bulat"
+                android:gravity="center"
+                android:hint="EMAIL"
+                android:text=""
+                android:inputType="textEmailAddress"
+                android:textColor="#000000"
+                android:textColorHint="#636e72"
+                android:textSize="20sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/userPassword"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/putih_bulat"
+                android:gravity="center"
+                android:hint="PASSWORD"
+                android:inputType="textPassword"
+                android:text=""
+                android:textColor="#000000"
+                android:textColorHint="#636e72"
+                android:textSize="20sp" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/lg_btn_login"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="35dp"
+                    android:background="@drawable/merah_bulat"
+                    android:text="LOGIN"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/lg_btn_register"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/merah_bulat"
+                    android:text="REGISTER"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+            </android.support.v7.widget.LinearLayoutCompat>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

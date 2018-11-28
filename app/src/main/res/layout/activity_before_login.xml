@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="xyz.jncode.manufriend.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_register" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/image_font_reg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/before_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Manufriend adalah sebuah aplikasi yang menyediakan layanan jasa teman beraktivitas bagi lansia yang diharapkan dapat mengurangi masalah sosial yang dihadapi"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_before_login"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/merah_bulat"
+            android:onClick="display"
+            android:text="OK, SAYA MENGERTI"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_font_reg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/judul" />
+
+</RelativeLayout>

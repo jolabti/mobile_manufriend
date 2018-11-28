@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:background="@color/manu_blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:src="@drawable/jalan2"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/profile_nama_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Suryaningsih Patandung"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1.7"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:text="Jenis Kelamin"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/profile_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="23dp"
+                        android:text="Perempuan"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="23dp"
+                        android:text="Tanggal Lahir"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/profile_bornday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="23dp"
+                        android:text="8 Juni 1996"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="55dp"
+                        android:layout_marginStart="23dp"
+                        android:text="Email"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/profile_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="23dp"
+                        android:text="suryaningsihpatandung@gmail.com"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="38dp"
+                        android:layout_marginStart="23dp"
+                        android:text="Telepon"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/profile_telepon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="23dp"
+                        android:text="085399250048"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="42dp"
+                        android:layout_marginStart="23dp"
+                        android:text="Alamat"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="15sp" />
+
+                    <!--Dari API-->
+                    <TextView
+                        android:id="@+id/profile_alamat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="23dp"
+                        android:layout_marginStart="23dp"
+                        android:text="Jl. Pesantren No. 2 Pasir Gunung Selatan, Cimanggis, Depok"
+                        android:textColor="@color/manu_grey"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/manu_grey" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/keluar_btn"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="9dp"
+                        android:background="@color/manu_blue"
+                        android:gravity="center"
+                        android:onClick="display"
+                        android:text="KELUAR"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/edit_btn"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:background="@color/manu_blue"
+                        android:gravity="center"
+                        android:onClick="display"
+                        android:text="EDIT"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/bantuan_btn"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:background="@color/manu_blue"
+                        android:gravity="center"
+                        android:onClick="display"
+                        android:text="BANTUAN"
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

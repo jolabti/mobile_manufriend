@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+
+        android:background="@color/manu_red"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_dl_nama_produk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Detil Riwayat"
+            android:textAlignment="center"
+            android:textColor="@color/manu_white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+
+            android:orientation="horizontal">
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Nama Service "
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/ctm_dialog_service"
+                android:textColor="@color/manu_black"
+                android:text="Jalan - Jalan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+
+            android:orientation="horizontal">
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Waktu "
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/ctm_dialog_waktu"
+                android:textColor="@color/manu_black"
+                android:text="13:43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+
+            android:orientation="horizontal">
+
+            <TextView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Harga "
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/ctm_dialog_harga"
+                android:textColor="@color/manu_red"
+                android:fitsSystemWindows="true"
+
+                android:text="Rp 20000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp">
+
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="15dp"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Jenis"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textStyle="bold" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal">-->
+
+
+    <!--<RadioGroup-->
+    <!--android:id="@+id/rg_gender"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:padding="10dp">-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/rb_ba"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:buttonTint="@color/greenDark"-->
+    <!--android:text="Batas Atas"-->
+    <!--android:textStyle="normal" />-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/rb_bb"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:buttonTint="@color/greenDark"-->
+    <!--android:text="Batas Bawah"-->
+    <!--android:checked="true"-->
+    <!--android:textStyle="normal"-->
+
+
+    <!--/>-->
+
+    <!--</RadioGroup>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:text="Harga"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="18sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/id_ednew_atas"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="+"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="20sp"-->
+
+    <!--/>-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/id_dl_ed_bawah"-->
+    <!--android:layout_width="140dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginRight="20dp"-->
+    <!--android:background="@drawable/edittext_search_bg"-->
+    <!--android:gravity="center"-->
+    <!--android:hint="Ex:1389.86"-->
+    <!--android:inputType="numberDecimal"-->
+    <!--android:textColor="@color/black"-->
+
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/id_ednew_bawah"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="-"-->
+    <!--android:textColor="@color/black"-->
+    <!--android:textSize="20sp"-->
+    <!--android:textStyle="bold"-->
+
+    <!--/>-->
+    <!--</LinearLayout>-->
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:text="Status Alert"-->
+    <!--android:textSize="8pt" />-->
+
+    <!--<android.support.v7.widget.SwitchCompat-->
+    <!--android:id="@+id/switchButton"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:checked="true"-->
+    <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+    <!--&lt;!&ndash;<ToggleButton&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/toggBtn"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_below="@+id/text6"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="35dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_margin="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@drawable/button_green_border"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textColor="@color/black"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:checked="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginTop="5dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginBottom="5dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        >
+
+
+        <!--<Button-->
+        <!--android:id="@+id/id_dl_btn_cancel"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:text="Tutup"-->
+
+        <!--/>-->
+
+        <Button
+
+            android:id="@+id/ctm_dialog_button_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:soundEffectsEnabled="true"
+            android:text="Tutup"
+            android:textColor="@color/manu_blue"
+            android:background="@color/manu_grey_light"
+
+
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
